@@ -7,7 +7,7 @@ Scrapes the song name and artist name of the current hot 100 Billboard songs and
   
   `git clone https://github.com/MiltonIp/Billboard-to-YouTube.git`
   
-  `cd` into the folder/repo
+  `cd Billboard-to-YouTube`
   
   `pip3 install -r requirements.txt`
   
