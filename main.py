@@ -1,5 +1,5 @@
 import datetime
-
+import os
 import requests
 from lxml import html
 
@@ -10,9 +10,7 @@ from googleapiclient.errors import HttpError
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-from secrets import youtube_developer_key  # YouTube Data API key
-
-DEVELOPER_KEY = youtube_developer_key()
+DEVELOPER_KEY = os.environ.get('YOUTUBE_API')
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 SCOPES = ['https://www.googleapis.com/auth/youtube']
