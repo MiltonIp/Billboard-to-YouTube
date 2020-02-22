@@ -13,8 +13,8 @@ Scrapes the song name and artist name of the current hot 100 Billboard songs and
   
   To run the code, follow steps 1 to 3 here: https://developers.google.com/youtube/v3/quickstart/python
   
-  Then get an API key for YouTube Data API v3 and replace 'youtube_developer_key()' with it in line 11 and delete the import statement on       line 9 OR
-  
-  Create a python file named secrets.py and create a method named youtube_developer_key() that returns your API key
-  
+  Then get an API key for YouTube Data API v3 and set the environment variable YOUTUBE_API to your API key
+
+  `export YOUTUBE_API=<Your YouTube API key>`
+
   `python3 main.py`
